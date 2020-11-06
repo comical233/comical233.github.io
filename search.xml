@@ -64,4 +64,13 @@ N(x;\vec\mu,\Sigma)=\sqrt{\frac{1}{(2\pi)^ndet(\Sigma)}}exp\left(-\frac{1}{2}(\v
 <p>当然梯度下降也存在缺点：<br>（1）靠近极小值时收敛速度减慢。<br>（2）直线搜索时可能会产生一些问题。<br>（3）可能会“之字形”地下降。</p>
 ]]></content>
   </entry>
+  <entry>
+    <title>操作手册</title>
+    <url>/blog/2020/11/06/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/</url>
+    <content><![CDATA[<h3 id="创建文件"><a href="#创建文件" class="headerlink" title="创建文件"></a>创建文件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new <span class="string">&quot;文件夹名&quot;</span></span><br></pre></td></tr></table></figure>
+<h3 id="上传文件"><a href="#上传文件" class="headerlink" title="上传文件"></a>上传文件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+<h3 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean   <span class="comment">##清理 </span></span><br><span class="line">hexo g          <span class="comment">##构建、编译 </span></span><br><span class="line">hexo s          <span class="comment">##启动服务 </span></span><br><span class="line">hexo d          <span class="comment">##上传至服务器</span></span><br></pre></td></tr></table></figure>
+<h3 id="配置详情"><a href="#配置详情" class="headerlink" title="配置详情"></a>配置详情</h3><p><a href="https://blog.csdn.net/weidong_y/article/details/90904781">csdn博客</a></p>
+]]></content>
+  </entry>
 </search>
